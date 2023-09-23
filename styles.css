@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    border: 0;
+}
+html{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+#logo-span{
+    color: #13C2F5;
+}
+
+.navlist a {
+    text-decoration: none;
+    color: white;
+}
+.navlist li{
+    list-style: none;
+}
+.navlist{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.logo-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 3%;
+    flex-wrap: wrap;
+}
+.navlist a:hover{
+    color: #13C2F5;
+}
+#hello{
+    background-color: #13C2F5;
+    color: white;
+    border-radius: 10%;
+    padding: 10px;
+}
+#Designer{
+    color: #13C2F5;
+}
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 150px;
+}
+#image{
+    height: 600px;
+    width: 600px;
+    object-fit: cover;
+}
+#downloadcv{
+    background-color: #13C2F5;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5%;
+    cursor: pointer;
+    font-size: 18px;
+}
+#aboutimage{
+    height: 550px;
+    width: 380px;
+    object-fit: cover;
+    margin-right: 35px;
+    margin-left: 75px;
+}
+#me{
+    color: #13C2F5;
+    font-weight: 600;
+}
+#about{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 10px;
+    margin-bottom: 250px;
+    
+}
+#aboutpara{
+    text-align: justify;
+    width: 65%;
+}
+#about-btn{
+    background-color: #13C2F5;
+    color: white;
+    font-size: medium;
+    padding: 15px;
+    border-radius: 5%;
+}
+#latest{
+    color: #13C2F5;
+}
+#project-header{
+    text-align: center;
+}
+#proimage{
+    height: 280px;
+    width: 250px;
+    border: 20px solid white;
+    cursor: pointer;
+    object-fit:cover;
+}
+#project-images{
+    margin-left: 250px;
+    display: grid;
+    grid-template-rows: 320px 320px;
+    grid-template-columns: auto auto auto;
+    margin-bottom: 300px;
+}
+#mecontact{
+    color: #13C2F5;
+}
+#contact-section{
+    display: flex;
+    justify-content: center;
+}
+#textimg{
+    font-size: 15px;
+}
+#proimage:hover{
+    border: 3px solid white;
+    opacity: 0.5;
+}
+#contactpara{
+    width: 60%;
+}
+#name, #email, #number{
+    background-color: rgb(58, 53, 53);
+    height: 50px;
+    width: 300px;
+}
+::-webkit-input-placeholder{
+    color: white;
+    opacity: 0.5;
+    padding: 20px; 
+}
+#textarea{
+    background-color: rgb(81, 76, 76);
+    color: white;
+    opacity: 0.5;
+    padding: 20px;
+    cursor:text;
+}
+#sendmessages{
+    background-color: #13C2F5;
+    color: white;
+    font-size: medium;
+    height: 35px;
+    width: 140px;
+    border-radius: 5%;
+    cursor: pointer;
+}
+#contactpage{
+    height: 500px;
+    width: 600px;
+}
+input{
+    color: white;
+}
+#icons{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+#icons:hover{
+    height: 25px;
+    width: 25px;
+}
+.navlist a.active{
+    color: #13C2F5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

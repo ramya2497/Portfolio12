@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <!--header section-->
+  <header id="head-section">
+    <div class="logo-nav">
+      <div class="logo">
+        <h3>Develo<span id="logo-span">pe</span>r..</h3>
+      </div>
+      <div class="navbar">
+        <ul class="navlist">
+          <li><a href="#Home" class="active">Home</a></li>
+          <li><a href="#aboutsection">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact-section">Contact Me</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <body>
+    <section>
+        <div id="hero">
+        <div class="hero-container">
+        <h5><span id="hello">Hello</span> I'm</h5>
+        <h1 class="myname">Ramya</h1>
+        <h1>Website <span id="Designer">Designer.</span></h1>
+        <h5>
+          I am a skilled and passionate web designer with experience in creating
+        </h5>
+        <h5>visually appealing and user-friendly websites.</h5>
+        <button id="downloadcv">Download CV</button>
+      </div>
+      <div class="img">
+        <img id="image" src="./Assets/ramya.png" />
+      </div>
+      </div>
+    </section>
+    <section id="aboutsection">
+      <div id="about">
+        <div id="aboutme">
+          <img id="aboutimage" src="Assets/aboutme.png" />
+        </div>
+        <div id="aboutcontent">
+          <h1>About <span id="me">Me</span></h1>
+          <h3>Website Developer!</h3>
+          <h5 id="aboutpara">
+            I'm a web developer who turns ideas into interactive digital
+            experiences. With a passion for clean code and intuitive design, I
+            specialize in creating websites that captivate users. My expertise
+            spans front-end and back-end technologies, ensuring seamless
+            functionality and stunning visuals. Explore my portfolio to witness
+            my commitment to innovation and user satisfaction. Let's collaborate
+            to bring your web vision to life. Together, we'll make the web a
+            more vibrant and accessible place.
+          </h5>
+          <button id="about-btn">More About</button>
+        </div>
+      </div>
+    </section>
+    <div id="projects">
+      <h1 id="project-header"><span id="latest">Latest </span>Projects</h1>
+      <div id="project-images">
+        <div class="item-1">
+          <img id="proimage" src="./Assets/webdesign.jpg"/>
+          <div id="textimg">Web Design</div>
+        </div>
+        <div class="item-2">
+          <img id="proimage" src="./Assets/Chess Board.png" />
+          <div id="textimg">Chess Board App</div>
+        </div>
+        <div class="item-3">
+          <img id="proimage" src="./Assets/calculator.png"/>
+          <div id="textimg">calculator App</div>
+        </div>
+        <div class="item-4">
+          <img id="proimage" src="./Assets/Todo-list.png" />
+          <div id="textimg">Todo-list App</div>
+        </div>
+        <div class="item-5">
+          <img id="proimage" src="./Assets/Personal landing page.png" />
+          <div id="textimg">Personal Landing Page</div>
+        </div>
+      </div>
+    </div>
+    <div id="contact-section">
+    <div id="contactpage">
+    <h1 id="contactheader">Contact <span id="mecontact">Me!</span></h1>
+    <h3>If You Have Any Project In Your Mind.</h3>
+    <h4 id="contactpara">I'm a Website designer-Creating bold & brave interface design for companies all across the world.</h4>
+    <h6>0123456789</h6>
+    <h6>webdesigner@gmail.com</h6>
+    <div id="contact-icon">
+        <img src="Assets/facebookicon.png" id="icons">
+        <img src="Assets/twittericon.png" id="icons">
+        <img src="Assets/instagramicon.png" id="icons">
+        <img src="Assets/gmailicon.png" id="icons">
+    </div>
+    </div>
+    <div id="contactform">
+    <form>
+        <label for="name"></label>
+        <input type="text" id="name" placeholder="Your Name" required><br><br>
+        <label for="email"></label>
+        <input type="email" id="email" placeholder="Your Email Address" required><br><br>
+        <label for="number"></label>
+        <input type="tel" id="number" placeholder="Your Mobile Number" required><br><br>
+        <textarea id="textarea" rows="8" cols="50" required>How can I Help You</textarea><br><br>
+        <input type="submit" value="Send Messages" id="sendmessages"><br>
+    </form>
+    </div>
+    </div>
+  </body>
+</html>
